@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bài tập buổi 3</title>
+</head>
+
+<body>
+  <h2>Câu 1: Bài tập về Iframe</h2>
+  <iframe
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3725.143373343394!2d105.84465011531341!3d20.986889194581416!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3135adbc142ab95b%3A0xda48eba865e8e4d0!2zTcOheSBUw61uaCBOZ3V54buFbiBDw7RuZw!5e0!3m2!1svi!2s!4v1676825762237!5m2!1svi!2s"
+    width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+    referrerpolicy="no-referrer-when-downgrade"></iframe>
+  <h2>Câu 2: Bài tập về form</h2>
+  <p><b>Phần 1: </b>form đăng ký</p>
+  <form action="">
+    <div>
+      <label for="hoTen">Họ tên:</label>
+      <br>
+      <input type="text" id="hoTen" placeholder="Ex: Lê Hoàng Cầu" required>
+    </div>
+    <div>
+      <label for="email">Email:</label>
+      <br>
+      <input type="text" id="email" placeholder="Ex: caulata1234@gmail.com" required>
+    </div>
+    <div>
+      <label for="password">Mật khẩu:</label>
+      <br>
+      <input type="password" id="password" required>
+    </div>
+    <button type="submit">Đăng ký</button>
+  </form>
+  <p><b>Phần 2: </b>form tìm kiếm</p>
+  <form action="">
+    <input type="search" placeholder="Nhập nội dung tìm kiếm" required>
+    <button type="submit">Tìm kiếm</button>
+  </form>
+  <h2>Câu 3: Bài tập để ôn lại kiến thức về form</h2>
+  <p><strong>- Thẻ input:</strong></p>
+  <div>
+    <label for="text">Kiểu text:</label>
+    <br>
+    <input type="text" id="text" placeholder="Nhập họ tên...">
+  </div>
+  <br>
+  <div>
+    <label for="email1">Kiểu email:</label>
+    <br>
+    <input type="email" id="email1" placeholder="Nhập email...">
+  </div>
+  <br>
+  <div>
+    <label for="pass">Kiểu password:</label>
+    <br>
+    <input type="password" id="pass">
+  </div>
+  <br>
+  <div>
+    <label for="nb">Kiểu number:</label>
+    <br>
+    <input type="number" id="nb">
+  </div>
+  <br>
+  <div>
+    <label for="date">Kiểu date:</label>
+    <br>
+    <input type="date" id="date">
+  </div>
+  <br>
+  <div>
+    <label for="time">Kiểu time:</label>
+    <br>
+    <input type="time" id="time">
+  </div>
+  <br>
+  <div>
+    <label for="file">Kiểu file:</label>
+    <br>
+    <input type="file" id="file" multiple>
+  </div>
+  <br>
+  <div>
+    <label for="gioitinh">Kiểu radio:</label>
+    <br>
+    <input type="radio" id="nam" name="gioitinh" value="Nam">
+    <label for="nam">Nam</label>
+    <input type="radio" id="nu" name="gioitinh" value="Nữ">
+    <label for="nu">Nữ</label>
+    <input type="radio" id="khac" name="gioitinh" value="Khác">
+    <label for="khac">Khác</label>
+  </div>
+  <br>
+  <div>
+    <label for="amluong">Kiểu range:</label>
+    <br>
+    <label for="amluong">Âm lượng (min=0 max=100 value=75):</label>
+    <br>
+    <input type="range" id="amluong" max="100" min="0" value="75">
+  </div>
+  <br>
+  <div>
+    <label for="mausac">Kiểu color:</label>
+    <br>
+    <input type="color" id="mausac">
+  </div>
+  <p><strong>- Thẻ select:</strong></p>
+  <div>
+    <label for="danhmuc">Chọn game:</label>
+    <select id="danhmuc" name="danhmuc">
+      <option value="lol" selected>League of Legend</option>
+      <option value="pubg">PUBG</option>
+      <option value="vlr">Valorant</option>
+      <option value="cs">CS:GO</option>
+    </select>
+  </div>
+  <p><strong><label for="textarea1">- Thẻ textarea: (cols=30 rows=10)</label></strong></p>
+  <textarea name="txt" id="textarea1" cols="30" rows="10"></textarea>
+</body>
+
+</html>
